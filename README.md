@@ -54,7 +54,7 @@ This script bootstraps the main server environment in a `tmux` session. It's des
     * Creates a new detached session named `minecraft`.
     * Splits the window vertically (top pane for monitoring, bottom for the server).
     * Runs `btop` (a system resource monitor) in the top pane.
-    * Changes to the `BMC3_Server_Pack_v22` directory and executes the `./start.sh` script in the bottom pane to launch the server.
+    * Changes to the server directory and executes the `./start.sh` script in the bottom pane to launch the server.
 4.  **Attaches:** Finally, it attaches the user to the newly created session.
 
 ### 2. `logsum.sh` (Log Summary)
